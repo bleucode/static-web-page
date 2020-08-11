@@ -1,0 +1,122 @@
+body{
+    background-color:  gradient aliceblue;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  li a:hover {
+    background-color: #111;
+  }
+
+.active {
+    background-color: #a993f8c0;
+  }
+
+.column {
+    font-family: monospace;
+    float: left;
+    margin: 10px;
+    padding: 70px;
+  }
+.column.middle {
+    width: 50%;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  body {
+    font-family:monospace;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    font: monospace;
+    float: left;
+    width: 65%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+  }
+  
+  /* Fake image */
+
+  .img {
+    background-color: #aaa;
+    width: 10%;
+    padding: 10px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+      font: monospace;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1000px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .h3{
+      font: monospace;
+  }
